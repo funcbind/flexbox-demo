@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import react from "react";
 import { useDispatch, useSelector } from "react-redux";
-import "src/App/FlexBoxDemo/flexboxDemo.scss";
+import "./flexboxDemo.scss";
 import {
   additionalDetails,
   defaultProperties,

@@ -12,8 +12,5 @@ export default defineConfig({
   publicDir: "../public",
   build: {
     outDir: "../dist"
-  },
-  resolve: {
-    alias: { "/src": path.resolve(process.cwd(), "src") }
-  },
+  }
 });
